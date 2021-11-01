@@ -47,7 +47,7 @@ services:
              - web_1
              - web_2
         ports:
-             - "8080:8080"
+             - "80:80"
         networks: 
             - ha-network                            
 
